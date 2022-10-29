@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+
+<TilePane xmlns:fx="http://javafx.com/fxml/1" prefTileHeight="100"
+	prefTileWidth="100">
+	<padding>
+		<Insets top="10.0" right="10.0" bottom="10.0" left="10.0" />
+	</padding>
+	<children>
+		<HBox style="-fx-background-color: red"></HBox>
+		<HBox style="-fx-background-color: orange"></HBox>
+		<HBox style="-fx-background-color: yellow"></HBox>
+		<HBox style="-fx-background-color: green"></HBox>
+		<HBox style="-fx-background-color: blue"></HBox>
+		<HBox style="-fx-background-color: navy"></HBox>
+		<HBox style="-fx-background-color: purple"></HBox>
+	</children>
+</TilePane>
+
