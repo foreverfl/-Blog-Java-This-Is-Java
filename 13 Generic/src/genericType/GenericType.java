@@ -1,6 +1,6 @@
 package genericType;
 
-public class Box<T> {
+public class GenericType<T> {
 	private T t;
 
 	public T get() {
