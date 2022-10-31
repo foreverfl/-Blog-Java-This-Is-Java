@@ -2,14 +2,14 @@ package genericType;
 
 public class GenericTypeExample {
 	public static void main(String[] args) {
-		GenericType<String> box1 = new GenericType<String>();
-		box1.set("hello");
-		String str = box1.get();
+		GenericType<String> genericType1 = new GenericType<String>();
+		genericType1.set("hello");
+		String str = genericType1.get();
 		System.out.println(str);
 
-		GenericType<Integer> box2 = new GenericType<Integer>();
-		box2.set(6);
-		int value = box2.get();
+		GenericType<Integer> genericType2 = new GenericType<Integer>();
+		genericType2.set(6);
+		int value = genericType2.get();
 		System.out.println(value);
 	}
 }
