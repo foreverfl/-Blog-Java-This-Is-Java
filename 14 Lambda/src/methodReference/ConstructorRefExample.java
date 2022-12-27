@@ -12,5 +12,6 @@ public class ConstructorRefExample {
 		// 생성자 참조
 		BiFunction<String, String, ConstructorRef> function2 = ConstructorRef::new;
 		ConstructorRef constructorRef2 = function2.apply("mogumogu", "타로");
+
 	}
 }

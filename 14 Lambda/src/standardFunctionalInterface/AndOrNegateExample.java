@@ -21,7 +21,7 @@ public class AndOrNegateExample {
 		// or()
 		predicateAB = predicateA.or(predicateB);
 		result = predicateAB.test(9);
-		System.out.println("9는 2또는 3의 배수입니까? " + result);
+		System.out.println("9는 2 또는 3의 배수입니까? " + result);
 
 		// negate()
 		predicateAB = predicateA.negate();

@@ -14,10 +14,10 @@ public class AndThenAndComposeExample {
 
 		functionAB = functionA.andThen(functionB);
 		city = functionAB.apply(new Student("타로", "남자", new Address("한국", "서울")));
-		System.out.println("겨주 도시: " + city);
+		System.out.println("거주 도시: " + city);
 
 		functionAB = functionB.compose(functionA);
 		city = functionAB.apply(new Student("타로", "남자", new Address("한국", "서울")));
-		System.out.println("겨주 도시: " + city);
+		System.out.println("거주 도시: " + city);
 	}
 }
